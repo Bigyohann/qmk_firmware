@@ -34,14 +34,11 @@
 #    define DIM_CAPS_LOCK
 #    define CAPS_LOCK_INDEX 30
 #    define LOW_BAT_IND_INDEX 62
-
-/* RGB Matrix Animation modes. Explicitly enabled
- * For full list of effects, see:
- * https://docs.qmk.fm/#/feature_rgb_matrix?id=rgb-matrix-effects
- */
-
-#    define RGB_MATRIX_KEYPRESSES
-#    define RGB_MATRIX_FRAMEBUFFER_EFFECTS
+#    define MK_KINETIC_SPEED*/
+#    define MOUSEKEY_BASE_SPEED 1500*/
+#    define MOUSEKEY_WHEEL_BASE_MOVEMENTS 16*/
+#    define MOUSEKEY_WHEEL_INITIAL_MOVEMENTS 8*/
+/* RGB Matrix Animation modes.
 
 /* Set LED driver current */
 #    define CKLED2001_CURRENT_TUNE \
