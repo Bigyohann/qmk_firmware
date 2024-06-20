@@ -37,6 +37,10 @@
 #    define DIM_CAPS_LOCK
 #    define CAPS_LOCK_INDEX 30
 #    define LOW_BAT_IND_INDEX 61
+#    define MK_KINETIC_SPEED
+#    define MOUSEKEY_BASE_SPEED 2000
+#    define MOUSEKEY_WHEEL_BASE_MOVEMENTS 12
+#    define MOUSEKEY_WHEEL_INITIAL_MOVEMENTS 8
 
 /* RGB Matrix Animation modes. Explicitly enabled
  * For full list of effects, see:
