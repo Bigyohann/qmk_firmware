@@ -5,4 +5,6 @@ OPT_DEFS += -DMACROS_ENABLED
 
 SRC += matrix.c
 TAP_DANCE_ENABLE=yes
+CAPS_WORD_ENABLE = yes
+
 include keyboards/keychron/bluetooth/bluetooth.mk
